@@ -1,0 +1,59 @@
+{
+  "name": "fin-hypergrid",
+  "description": "Canvas-based high-performance spreadsheet",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openfin/fin-hypergrid.git"
+  },
+  "main": "src/Hypergrid.js",
+  "author": "SWirts, JEiten, DJones",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "",
+  "keywords": [
+    "spreadsheet",
+    "grid"
+  ],
+  "dependencies": {
+    "automat": "1.2.0",
+    "extend-me": "2.2.2",
+    "filter-tree": "0.3.32",
+    "finbars": "1.5.1",
+    "fincanvas": "1.2.1",
+    "hyper-analytics": "0.11.0",
+    "list-dragon": "1.3.3",
+    "lru-cache": "2.7.0",
+    "mustache": "2.2.0",
+    "object-iterators": "1.3.0",
+    "pop-menu": "0.2.5",
+    "rectangular": "1.0.1",
+    "sparse-boolean-array": "1.0.1",
+    "tabz": "1.1.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "css-injector": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-beautify": "^2.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-each": "^0.1.1",
+    "gulp-eslint": "^1.1.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.8.2",
+    "gulp-imagine-64": "^1.0.1",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-mirror": "^0.4.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gutil": "^1.6.4",
+    "header": "^0.1.1",
+    "multipipe": "^0.2.1",
+    "multiple": "^0.2.1",
+    "run-sequence": "^1.1.4",
+    "through2": "^2.0.0"
+  }
+}
